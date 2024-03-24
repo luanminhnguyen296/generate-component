@@ -1,0 +1,15 @@
+import React from 'react';
+
+interface Props extends React.HTMLAttributes<HTMLDivElement> {
+  id: string
+}
+
+const <%= componentName %>: React.FC<Props> = ({ id }) => {
+  return (
+    <div id={id}>
+      <%= componentName %>
+    </div>
+  );
+};
+
+export default <%= componentName %>;
