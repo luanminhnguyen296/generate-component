@@ -5,7 +5,11 @@
 ## Get started [💚](https://www.npmjs.com/package/pinia#help-me-keep-working-on-this-project-)
 
 * **Step 1:** Copy the gen_cop folder to the project's root directory
-* **Step 2:** Add script command to package.json file
+* **Step 2:** Run the chmod command to grant permissions to the generate-component.mjs file
+* ```javascript
+  chmod +x gen_cop/generate-component.js
+  ```
+* **Step 3:** Add script command to package.json file
 
 ```json
 {
@@ -15,7 +19,7 @@
 }
 ```
 
-* **Step 3:** Run the generate component command
+* **Step 4:** Run the generate component command
 
   ```
   * yarn gen-cop [nameComponent] [prarentFolderPath]
